@@ -23,7 +23,7 @@ services:
       GAMEMODE: survival
       MOTD: "                   \u00A7afrogs\u00A7r.rocks"
       MODS: >-
-        https://github.com/FabricMC/fabric/releases/download/0.133.4%2B1.21.8/fabric-api-0.133.4+1.21.8.jar,
+        https://cdn.modrinth.com/data/P7dR8mSH/versions/CF23l2iP/fabric-api-0.133.4%2B1.21.8.jar,
         https://cdn.modrinth.com/data/wKkoqHrH/versions/Q7am23V6/geyser-fabric-Geyser-Fabric-2.8.3-b939.jar,
         https://cdn.modrinth.com/data/bWrNNfkb/versions/ps3IuRel/Floodgate-Fabric-2.2.5-b45.jar,
         https://cdn.modrinth.com/data/YlKdE5VK/versions/17bTjshZ/ViaFabric-0.4.19%2B118-main.jar,
