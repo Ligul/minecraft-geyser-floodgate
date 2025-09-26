@@ -47,6 +47,30 @@ services:
         /op yolona_oss
         /op Ligul
         /op .AnxiousYapper99
+      SYNC_SKIP_NEWER_IN_DESTINATION: "true"
     volumes:
       - ./mc-data:/data
+    configs:
+      - source: youritemsaresafe
+        target: /config/youritemsaresafe.json5      
     restart: unless-stopped
+
+configs:
+  youritemsaresafe:
+    content: |
+      {
+              // When enabled and a player dies without any items in their inventory, no chest or armor stand is generated.
+              "mustHaveItemsInInventoryForCreation": false,
+              // If a player head should be added to the armor stand. If a helmet is worn, this will be placed into the chest.
+              "addPlayerHeadToArmorStand": true,
+              // Whether an armor stand should be created on death. If disabled, the player's gear will be placed inside the chest.
+              "createArmorStand": true,
+              // Whether a sign should be placed on the chest with the name of the player who died there.
+              "createSignWithPlayerName": true,
+              // Whether materials are needed for the chest which spawns on death. This can be the actual chest or the costs in raw materials.
+              "needChestMaterials": false,
+              // Whether materials are needed for the armor stand to spawn on death. This can be the actual armor stand or the costs in raw materials.
+              "needArmorStandMaterials": false,
+              // Whether materials are needed for the creation of the sign when 'createSignWithPlayerName' is enabled.
+              "needSignMaterials": false,
+      }
