@@ -36,7 +36,8 @@ services:
         https://cdn.modrinth.com/data/cUhi3iB2/versions/w0oIAEFo/tabtps-fabric-mc1.21.8-1.3.28.jar,
         https://cdn.modrinth.com/data/1vkzEZjE/versions/aj90vTX9/forgivingvoid-forge-1.21.8-21.8.1.jar,
         https://cdn.modrinth.com/data/13RpG7dA/versions/bJYNHoyD/image2map-0.10.1%2B1.21.6.jar,
-        https://cdn.modrinth.com/data/yn9u3ypm/versions/gdZmLCZD/graves-3.8.1%2B1.21.6.jar,
+        https://cdn.modrinth.com/data/lL35xmSR/versions/m5qYhEeg/youritemsaresafe-1.21.8-4.7.jar,
+        https://cdn.modrinth.com/data/e0M1UDsY/versions/mld0ZPD9/collective-1.21.8-8.4.jar,
         https://cdn.modrinth.com/data/Ps1zyz6x/versions/Bi5i8Ema/ScalableLux-0.1.5.1%2Bfabric.abdeefa-all.jar
       VIEW_DISTANCE: 8
       SIMULATION_DISTANCE: 8
