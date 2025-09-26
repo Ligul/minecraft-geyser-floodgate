@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  minecraft:
+    container_name: mc-fabric
+    image: itzg/minecraft-server:latest
+    ports:
+      - "25565:25565"      # Java
+      - "19132:19132/udp"  # Bedrock
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21.8"
+      ONLINE_MODE: "FALSE"
+      MEMORY: "2G"
+      ENABLE_RCON: "TRUE"
+      RCON_PASSWORD: "supersecret"
+      # TODO: use specific geysermc version
+      MODS: >-
+        https://github.com/FabricMC/fabric/releases/download/0.133.4%2B1.21.8/fabric-api-0.133.4+1.21.8.jar,
+        https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric,
+        https://cdn.modrinth.com/data/bWrNNfkb/versions/ps3IuRel/Floodgate-Fabric-2.2.5-b45.jar,
+        https://cdn.modrinth.com/data/YlKdE5VK/versions/17bTjshZ/ViaFabric-0.4.19%2B118-main.jar
+    volumes:
+      - ./mc-data:/data
+    restart: unless-stopped
