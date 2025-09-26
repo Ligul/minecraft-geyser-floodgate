@@ -17,7 +17,7 @@ services:
       VERSION: 1.21.8
       ONLINE_MODE: "FALSE"
       MEMORY: 2G
-      ENABLE_RCON: "false"
+      ENABLE_RCON: "true"
       RESOURCE_PACK: https://vanillatweaks.net/download/VanillaTweaks_r186893_MC1.21.x.zip
       DIFFICULTY: hard
       GAMEMODE: survival
