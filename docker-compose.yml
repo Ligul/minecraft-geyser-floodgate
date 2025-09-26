@@ -36,7 +36,6 @@ services:
       OPS: |
         yolona_oss
         Ligul
-        .andsay3381
     volumes:
       - ./mc-data:/data
     restart: unless-stopped
