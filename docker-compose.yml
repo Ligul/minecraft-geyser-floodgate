@@ -32,6 +32,7 @@ services:
         /op .AnxiousYapper99
       SYNC_SKIP_NEWER_IN_DESTINATION: "true"
       MODS_FILE: /extras/mods.txt
+      SEED: "5876406785389981493"
     volumes:
       - ./mc-data:/data
     configs:
