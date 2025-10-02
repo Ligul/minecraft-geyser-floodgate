@@ -75,7 +75,7 @@ configs:
       #
       # bedrock
       #
-      https://cdn.modrinth.com/data/wKkoqHrH/versions/Q7am23V6/geyser-fabric-Geyser-Fabric-2.8.3-b939.jar
+      https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric
   youritemsaresafe:
     content: |
       {
