@@ -9,7 +9,7 @@ services:
     ports:
       - "25565:25565" # Java
       - "19132:19132/udp" # Bedrock
-      - "24454:24454/udp" # Simple Voice Chat
+      - "24454:24454" # Simple Voice Chat
     environment:
       EULA: "TRUE"
       TYPE: FABRIC
