@@ -62,6 +62,7 @@ configs:
       #
       # misc
       #
+      https://cdn.modrinth.com/data/l9H9JPmo/versions/MJSMiJds/mob_explosion_griefing-1.5.0%2B1.21.3-1.21.8.jar
       https://cdn.modrinth.com/data/ghrZDhGW/versions/T88D7KI1/skinrestorer-2.4.3%2B1.21.6-fabric.jar
       https://cdn.modrinth.com/data/PExmWQV8/versions/Bu1RM4Ll/mods-command-mc1.21.8-1.1.11.jar
       https://cdn.modrinth.com/data/cUhi3iB2/versions/w0oIAEFo/tabtps-fabric-mc1.21.8-1.3.28.jar
