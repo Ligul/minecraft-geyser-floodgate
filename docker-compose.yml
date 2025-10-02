@@ -7,9 +7,9 @@ services:
         limits:
           cpus: "2"
     ports:
-      - "25565:25565" # Java
+      - "25565:25565/tcp" # Java
+      - "25565:25565/udp" # Plasmo Voice
       - "19132:19132/udp" # Bedrock
-      - "24454:24454" # Simple Voice Chat
     environment:
       EULA: "TRUE"
       TYPE: FABRIC
@@ -64,7 +64,8 @@ configs:
       #
       # misc
       #
-      https://cdn.modrinth.com/data/9eGKb6K1/versions/iGd9Wjlq/voicechat-fabric-1.21.8-2.5.35.jar
+      https://cdn.modrinth.com/data/1bZhdhsH/versions/MIuFIHON/plasmovoice-fabric-1.21.6-2.1.6.jar
+      https://cdn.modrinth.com/data/g2HFPeCl/versions/IekmKjyq/pv-addon-groups-1.1.1.jar
       https://cdn.modrinth.com/data/l9H9JPmo/versions/MJSMiJds/mob_explosion_griefing-1.5.0%2B1.21.3-1.21.8.jar
       https://cdn.modrinth.com/data/ghrZDhGW/versions/T88D7KI1/skinrestorer-2.4.3%2B1.21.6-fabric.jar
       https://cdn.modrinth.com/data/PExmWQV8/versions/Bu1RM4Ll/mods-command-mc1.21.8-1.1.11.jar
