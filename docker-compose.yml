@@ -26,6 +26,7 @@ services:
       SPAWN_PROTECTION: 0
       USE_MEOWICE_FLAGS: "true"
       RCON_CMDS_STARTUP: |
+        /gamerule mobExplosionGriefing false
         /op yolona_oss
         /op Ligul
         /op .AnxiousYapper99
